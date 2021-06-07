@@ -109,7 +109,14 @@
     <Compile Include="Assets\Environment\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\CharactorAnimator.cs" />
+    <Compile Include="Assets\Scripts\EquipmentManager.cs" />
     <Compile Include="Assets\Scripts\Interactable.cs" />
+    <Compile Include="Assets\Scripts\Inventory\Inventory.cs" />
+    <Compile Include="Assets\Scripts\Inventory\InventorySlot.cs" />
+    <Compile Include="Assets\Scripts\Inventory\InventoryUI.cs" />
+    <Compile Include="Assets\Scripts\Item\Equipment.cs" />
+    <Compile Include="Assets\Scripts\Item\Item.cs" />
+    <Compile Include="Assets\Scripts\Item\ItemPickup.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\PlayerMotor.cs" />
     <None Include="Assets\Environment\PostProcessing\Resources\Shaders\DepthOfField.shader" />
@@ -176,6 +183,9 @@
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>C:/project/project2/RPG Tutorial/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>C:/project/project2/RPG Tutorial/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/project/project2/RPG Tutorial/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
